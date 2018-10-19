@@ -1,0 +1,38 @@
+Objects in JS:
+
+var oObject {
+	Characteristic1 : "Value1",
+	Characteristic2 : "Value2",
+		outputCharacteristic2: function() {
+			alert("Characteristic2 is" + this.Characteristic2);
+	}
+}
+
+-------------------------------------------------------------------------------------
+
+The statement for a variable declaration
+in JavaScript is very simple:
+var variable = 123;
+
+With this statement, you create a variable of type integer. If you want
+to create a variable of type string, the statement changes as follows:
+var variable = "123";
+
+Strictly speaking, you can also omit the keyword var.
+-------------------------------------------------------------------------------------
+
+Variable Nomenclature
+For reasons of clarity, readability, and maintainability, it is recommended that
+you always use the keyword var and introduce a type of Hungarian notation, for example:
+
+var sVar = "Text"; // string
+var iVar = 123; // integer
+var fVar = 12.34; // float
+var oObject = new Object(); // object
+
+JavaScript differentiates between uppercase and lowercase; the statements
+sVar and sVAR would create two different variables in JavaScript!
+
+-------------------------------------------------------------------------------------
+
+
